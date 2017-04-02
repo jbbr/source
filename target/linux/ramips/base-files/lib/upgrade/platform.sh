@@ -87,6 +87,7 @@ platform_check_image() {
 	miniembplug|\
 	miniembwifi|\
 	miwifi-mini|\
+  miwifi-3|\
 	miwifi-nano|\
 	mlw221|\
 	mlwg2|\

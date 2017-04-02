@@ -243,6 +243,14 @@ define Device/miwifi-mini
 endef
 TARGET_DEVICES += miwifi-mini
 
+define Device/miwifi-3
+  DTS := MIWIFI-3
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+  DEVICE_TITLE := Xiaomi MiWiFi 3
+  DEVICE_PACKAGES := kmod-usb2 kmod-usb-ohci
+endef
+TARGET_DEVICES += miwifi-3
+
 define Device/mlw221
   DTS := MLW221
   IMAGE_SIZE := $(ralink_default_fw_size_16M)
